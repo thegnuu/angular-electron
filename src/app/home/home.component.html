@@ -1,7 +1,12 @@
 <div class="container">
   <h1 class="title">
-    {{ 'PAGES.HOME.TITLE' | translate }}
+    IMPORT TEST
   </h1>
 
-  <a routerLink="/detail">{{ 'PAGES.HOME.GO_TO_DETAIL' | translate }}</a>
+  <a (click)="import()">IMPORT</a>
+
+  <div class="renderer">
+    <div>Component should be rendered below this</div>
+    <div #container></div>
+  </div>
 </div>

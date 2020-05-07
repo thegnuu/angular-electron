@@ -6,7 +6,9 @@
     "baseUrl": "",
     "types": []
   },
-  "exclude": [
-    "**/*.spec.ts"
-  ]
+  "angularCompilerOptions": {
+    "preserveSymlinks": true,
+    "enableIvy": true
+  },
+  "exclude": ["**/*.spec.ts"]
 }
